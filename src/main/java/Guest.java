@@ -1,4 +1,4 @@
-public class Guest extends Room {
+public class Guest {
 
     private String name;
     private int wallet;
@@ -19,7 +19,4 @@ public class Guest extends Room {
         return wallet;
     }
 
-    public String getName() {
-        return name;
-    }
 }

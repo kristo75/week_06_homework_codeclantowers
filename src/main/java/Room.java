@@ -3,13 +3,13 @@ import java.util.ArrayList;
 public class Room {
 
     private int capacity;
-    private ArrayList<ArrayList<Guest>> guests;
+    private ArrayList<Guest> guests;
     public int roomRate;
 
 
     public Room(int capacity){
         this.capacity = capacity;
-        this.guests = new ArrayList<ArrayList<Guest>>();
+        this.guests = new ArrayList<Guest>();
     }
 
     public int getCapacity(){
@@ -25,12 +25,12 @@ public class Room {
     }
 
     public void addGuest(Guest guest) {
-        boolean add = this.guests.add(guests);
+        this.guests.add(guest);
     }
 
 
     public void removeGuest(Guest guest) {
-        this.guests.remove(guests);
+        this.guests.remove(guest);
     }
 
 

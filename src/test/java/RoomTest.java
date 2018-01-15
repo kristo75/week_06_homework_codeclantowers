@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class RoomTest {
+public abstract class RoomTest {
 
     Room room;
     Guest guest;
@@ -21,7 +21,7 @@ public class RoomTest {
     @Test
     public void setCapacity(){
         room.setCapacity(2);
-        assertEquals(2, room.setCapacity());
+        assertEquals(2, room.getCapacity());
     }
 
     @Test
@@ -30,7 +30,7 @@ public class RoomTest {
     }
 
     @Test
-    public void addGuest();{
+    public abstract void addGuest();{
         room.addGuest(guest);
         assertEquals(2, room.getGuestCount());
     }

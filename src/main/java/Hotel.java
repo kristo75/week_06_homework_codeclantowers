@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Hotel extends Room{
+public class Hotel{
 
     private ArrayList<Room> rooms;
 

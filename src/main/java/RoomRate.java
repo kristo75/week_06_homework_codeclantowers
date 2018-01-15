@@ -1,4 +1,4 @@
-public enum RoomRate extends Room{
+public enum RoomRate {
     CLASSIC(100),
     EXECUTIVE(200),
     CASTLE(300),

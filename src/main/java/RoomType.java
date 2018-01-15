@@ -1,4 +1,4 @@
-public enum RoomType extends Room{
+public enum RoomType {
 
     DOUBLE,
     TWIN,
